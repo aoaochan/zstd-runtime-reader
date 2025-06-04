@@ -1,0 +1,15 @@
+{
+  "name": "zstd-streaming-reader",
+  "type": "module",
+  "version": "0.1.0",
+  "files": [
+    "zstd_streaming_reader_bg.wasm",
+    "zstd_streaming_reader.js",
+    "zstd_streaming_reader.d.ts"
+  ],
+  "main": "zstd_streaming_reader.js",
+  "types": "zstd_streaming_reader.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
