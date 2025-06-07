@@ -18,3 +18,7 @@ Use the companion Rust CLI **[`zstd-encoder`](https://github.com/aoaochan/zstd-e
 - **URL cache** with automatic `URL.revokeObjectURL` on `dispose()`.  
 - **~40 kB JS + WASM** (gzipped) – minimal footprint, no external libs.  
 - **Works everywhere** a modern ES2022 module works (Chrome, Firefox, Edge, Safari, PWAs…).
+
+## gltf
+- https://www.npmjs.com/package/gltfpack
+- `gltfpack -i input.gltf -o output.glb -cc`
